@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <style>
+        .form-homework {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .form-internal {
+            margin-bottom: 2px;
+        }
+
+        input[type="text"]{
+            width: 280px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            margin: auto;
+        }
+
+        
+
+       
+        
+    </style>
+</head>
+<body>
+    <div class="form-homework">
+        <h1 style="text-align: center;">Sign-In Form</h1>
+        <form action="#" id="myForm">
+            <fieldset style=" border: 2px solid rgb(8, 8, 17); width: 290px;">
+                <legend style="text-align: center; font-size: 1.3rem;">Sign-in</legend>
+                <div class="form-internal">
+                    <div>
+                        <label for="name">First Name</label>
+                        <input type="text">
+                    </div><br>
+                    <div>
+                        <label for="name">Last Name</label>
+                        <input type="text">
+                    </div> <br>
+                    <div>
+                        <label for="text">Phone Number</label>
+                        <input type="text">
+                    </div> <br>
+                    <div>
+                        <label for="name">Email Address</label>
+                        <input type="text">
+                    </div><br>
+                    <div>
+                        <label for="gender">Gender</label>
+                        <input type="radio" id="male" name="gender"><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender"><label for="female">Female</label>
+                        <input type="radio" id="other" name="gender"><label for="female">Others</label>
+                    </div><br>
+                    <div>
+                        <label for="password">
+                            <label for="pwd">Password</label>
+                            <input type="password" placeholder="8 Characters minimum" id="pwd" name="pwd" style="width: 280px; padding-bottom: 5px; padding-top: 5px; margin: auto;">
+                        </label>
+                    </div><br>
+                    
+                </div>
+                <div style="text-align: center; padding: 5px;">
+                    <button>Sign in</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    
+    
+    
+
+</body>
+</html>
