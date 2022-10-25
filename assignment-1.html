@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment I</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-div {
+           /* width: 80%; */
+        }
+
+       
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 20px;
+            height: 70px;
+            background-color: brown;
+            /* position: fixed; */
+            width: 100%;
+            z-index: 2000;
+        }
+
+        h4 {
+            margin: 0;
+            padding: 0;
+            color: beige;
+        }
+
+        .menu-btn {
+            margin-right: 20px;
+            background-color: yellow;
+            border: none;
+            padding: 8px 10px 8px 10px;
+            box-shadow: inset;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="module-div">
+            <header>
+                <p></p>
+                <h4>This is fixed header</h4>
+                <button class="menu-btn">Menu</button>
+            </header>
+            <div class="internal-div">
+                <p>This is Div One</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

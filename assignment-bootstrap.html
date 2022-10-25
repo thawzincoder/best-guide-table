@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=`">
+    <title>Document</title>
+    <style>
+
+       
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* height: 2000px; */
+        }
+
+        .main-div {
+            border: 1px solid gray;
+            border-top: none;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
+        .header-div {
+            position: fixed;
+            width: 100%;
+            /* overflow: hidden; */
+            z-index: 2000;
+        }
+
+        header {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           background-color: brown;
+           padding-top: 5px;
+           padding-bottom: 5px;
+           margin-top: 0;
+
+        }
+
+        header div h4 {
+            color: aliceblue;
+            padding-left: 15px;
+        }
+
+        header div button {
+            background-color: orange;
+            margin-right: 20px;
+            padding: 5px 8px 5px 8px;
+            border:none;
+        }
+
+        .box-div {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));            
+            gap: 15px;
+        }
+
+        .internal-div {
+            border: 1px solid black;
+            margin: 20px;
+            background-color: black;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .internal-div p {
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .footer-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-div footer div {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        .footer-div div p {
+            color: aliceblue;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    
+       <div class="main-div">
+            <div class="header-div">
+                <header>
+                    <div></div>
+                    <div>
+                        <h4>This is fixed header</h4>
+                    </div>
+                    <div>
+                        <button>Menu</button>
+                    </div>
+                </header>
+            </div>
+            <div class="box-div">
+                <div class="internal-div">
+                    <p>This is Div One</p>
+                </div>
+                <div class="internal-div">
+                    <p>This is Div Two</p>
+                </div><div class="internal-div">
+                    <p>This is Div Three</p>
+                </div><div class="internal-div">
+                    <p>This is Div Four</p>
+                </div><div class="internal-div">
+                    <p>This is Div Five</p>
+                </div><div class="internal-div">
+                    <p>This is Div Six</p>
+                </div><div class="internal-div">
+                    <p>This is Div Seven</p>
+                </div><div class="internal-div">
+                    <p>This is Div Eight</p>
+                </div><div class="internal-div">
+                    <p>This is Div Nine</p>
+                </div>
+            </div>
+            <div class="footer-div">
+                <footer>
+                    <div>
+                        <p>This is fixed footer</p>
+                    </div>
+                </footer>
+            </div>
+            
+            
+
+       </div>
+
+</body>
+</html>
